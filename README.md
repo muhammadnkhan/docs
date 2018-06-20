@@ -1,4 +1,4 @@
-# Wavefront Documentation
+# Wavefront Documentation Repo
 
 ## Install Required Software
 
