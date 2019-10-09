@@ -62,8 +62,8 @@ You can specify custom application names at the level you need, like this:
 
 1. Span-level tag: Add the application span tag to all spans.
 2. Process-level tag: Add the application tag as a Jaeger tracer tag, that is, a process tag.
-3. Proxy-level tag: Add traceJaegerApplicationName=<application-name> in the proxy configuration at /etc/wavefront/wavefront-proxy/wavefront.conf.
- See [Proxy Configuration Paths](https://docs.wavefront.com/proxies_configuring.html#paths) for details on the config file location.
+3. Proxy-level tag: Add traceJaegerApplicationName=<application-name> in the proxy configuration at `/etc/wavefront/wavefront-proxy/wavefront.conf`.
+ See [Proxy Configuration Paths](proxies_configuring.html#paths) for details on the config file location.
 
 The order of precedence is span level > process level > proxy level.
 
